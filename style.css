@@ -1,0 +1,107 @@
+body {
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+header {
+    background-image: url('https://www.elegircarrera.net/blog/wp-content/uploads/2017/10/campus-universitario-2000x1200.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+}
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); 
+}
+header h1, header p {
+    position: relative; 
+}
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+nav a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #575757;
+}
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+}
+main {
+    padding: 20px;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-image: url('https://www.elegircarrera.net/blog/wp-content/uploads/2017/10/campus-universitario-2000x1200.jpg');
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    position: relative; 
+footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); 
+}
+footer p {
+    position: relative;
+}
+.content {
+    padding: 20px;
+    background-color: #08346e; 
+    color: white;
+    text-align: center;
+}
+
+table {
+    text-align:center;
+    width: 50%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #444141;
+}
+.divisoria td {
+    border-top: 2px solid black;
+}
+.diva {
+    background-color: #5886c2;
+    color: white;
+}
